@@ -1,0 +1,176 @@
+        #head{
+            position: absolute;
+            top: -10px;
+            left: 230px;
+        }
+        #idj{
+            position: absolute;
+            margin-left: 100px;
+            top: 40px;
+        }
+       
+        #inputid{
+            width: 70px;
+            position: absolute;
+            margin-left: 125px;
+            top: 60px;
+        }
+       
+        #firstnamej{
+            position: absolute;
+            margin-left: 30px;
+            top: 65px;
+        }
+        #inputfirstname{
+            width: 180px;
+            position: absolute;
+            margin-left: 125px;
+            top:85px; 
+        }
+        #lastnamej{
+            position: absolute;
+            margin-left: 380px;
+            top: 65px;  
+        }
+        #inputlastname{
+            width: 180px;
+            position: absolute;
+            margin-left: 510px;
+            top: 85px; 
+        }
+        #emailj{
+            position: absolute;
+            margin-left: 62px;
+            top: 90px;
+        }
+        #inputemail{
+            width: 220px;
+            position: absolute;
+            margin-left: 125px;
+            top: 110px; 
+        }
+        #phonej{
+            position:absolute;
+            margin-left:380px;
+            top:90px;
+        }
+        #inputphone{
+            width: 150px;
+            position: absolute;
+            margin-left: 510px;
+            top: 110px; 
+        }
+        #salaryj{
+            position: absolute;
+            margin-left: 65px;
+            top: 115px;
+        }
+        #inputsalary{
+            width: 100px;
+            position: absolute;
+            margin-left: 125px;
+            top: 135px; 
+        }
+       #btnOk{
+            width: 105px;
+            position: absolute;
+            left: 250px;
+            top: 135px;
+            background-color: cornflowerblue;
+            color: white;
+            }
+       #btnclear{
+            width: 105px;
+            position: absolute;
+            left: 360px;
+            top: 135px;
+            background-color: limegreen;
+            color: white;    
+            }
+        #searchj{
+            position: absolute;
+            margin-left: 65px;
+            top: 160px;
+            z-index: 20;
+        }
+        #containnersearch{
+            width: 1300px;
+            border: solid 1px whitesmoke;
+            background: yellow;
+            top: 170px;
+            position: absolute;
+            left: 30px;
+        }
+        #inputsearch{
+            width: 215px;
+            position: absolute;
+            margin-left: 125px;
+            top: 180px; 
+            z-index: 20;
+        }
+        #searchselect{
+            height: 20px;
+            position: absolute;
+            top: 180px;
+            left: 365px;
+            z-index: 20;
+        }
+        #btnsearch{
+            width: 100px;
+            position: absolute;
+            left: 440px;
+            top: 180px;
+            background-color: mediumvioletred;
+            color: white;
+            z-index: 20;
+        }
+         table{
+            border-collapse: collapse;
+            margin-top: 200px;
+            left: 60px;
+            position: absolute;
+        }
+
+        td, th{
+            padding: 10px;
+        }
+
+        td{
+            border : solid 1px #eee;
+            width: 70px;
+        }
+
+        thead > tr{
+            background-color: #fafafa;
+        }
+        .tdno{
+            width: 60px;
+        }
+        .tdfirst,.tdlast,.tdphone{
+            width: 160px;
+        }
+        .tdemail{
+            width: 230px;
+        }
+        .tdmodify{
+            width: 110px;
+        }
+        .tdsalary,.tdid{
+            width: 90px;
+        }
+        #btndelete{
+            width: 120px;
+            margin-top: 5px;
+            background-color: salmon;
+            color: white;
+            
+          
+        }
+        #btnupdate{
+            width: 120px;
+            background-color: highlighttext;
+            color: white;
+            
+        }
+        
+        
