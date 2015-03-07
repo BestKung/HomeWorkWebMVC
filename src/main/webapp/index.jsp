@@ -17,9 +17,7 @@
     <body>
 
         <div id="head"><h1>Employees</h1></div>
-        <button onclick="alert(<%=request.getParameter("txtcode") %>)">testcode</button>
-        <button onclick="alert(<%=request.getParameter("txtfirstname") %>)">firstname</button>
-
+        
         <%
             String code = "0";
             String delete = request.getParameter("txtdeleteid");
@@ -75,7 +73,7 @@
 
         <form id="fromadd" method="post" action="index.jsp">
             <div id="idj"><h3>Id</h3></div>  
-            <input id="inputid" name="txtid" value="<%=id%>">
+            <input id="inputid" name="txtid" value="<%=id%>" type="number" size="6">
 
             <div id="firstnamej"><h3>First Name</h3></div>  
             <input id="inputfirstname" name="txtfirstname" value="<%=firstname%>" >
@@ -179,7 +177,7 @@
                         <form id="formdelete" method="post" action="index.jsp">
                             <input type="hidden" name="txtcode" value="2">   
                             <input type="hidden" name="txtdeleteid" onclick="if (confirm('Delete ' +<%= dcl.getFirstname().get(i)%>))" value="<%=dcl.getId().get(i)%>">
-                            <button id="btndelete" type="submit" onclick="alert(<%=dcl.getFirstname().get(i)%>)">Delete</button>
+                            <button id="btndelete" type="submit" >Delete</button>
                         </form>
                     </td>
                 </tr>

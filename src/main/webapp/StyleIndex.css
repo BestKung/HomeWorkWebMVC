@@ -161,14 +161,14 @@
         #btndelete{
             width: 120px;
             margin-top: 5px;
-            background-color: salmon;
+            background-color: #FF0000;
             color: white;
             
           
         }
         #btnupdate{
             width: 120px;
-            background-color: highlighttext;
+            background-color: #333333;
             color: white;
             
         }
